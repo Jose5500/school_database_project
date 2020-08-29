@@ -1,31 +1,25 @@
 package com.company;
 
 public class GuiMessages {
-    public static void printNotice(){
-        System.out.println("*Note*\n" +
-                "Due to this project not having a client to specify schools, classes, and teachers, there are sample inputs already placed.\n"+
-                "However, you have the freedom to add your own. Only thing is to remember to add schools, classes, and teachers before adding a student.\n"+
-                "Thank you.");
-    }
     public static void printWelcomeMessage(){
-        System.out.println("Welcome to this low budget Aeries Clone thingy");
+        System.out.println("Welcome to this school database");
     }
     public static void printMainSelectionScreen(){
         System.out.println("Enter the number for what section you'd like to visit\n" +
-                            "1:Schools\n"+
-                            "2:Teachers\n"+
-                            "3:Classrooms\n"+
-                            "4:Students");
+                "1:Schools\n"+
+                "2:Teachers\n"+
+                "3:Classrooms\n"+
+                "4:Students");
     }
     public static void printSchoolSelectionScreen(){
         System.out.println("1:Add school\n"+
-                            "2:Get list of schools\n" +
-                            "3:Get information about school\n" +
-                            "4:Get teachers in school\n"+
-                            "5:Get classrooms in school\n"+
-                            "6:Get students in school\n" +
-                            "7:Remove school\n" +
-                            "8:Exit");
+                "2:Get list of schools\n" +
+                "3:Get information about school\n" +
+                "4:Get teachers in school\n"+
+                "5:Get classrooms in school\n"+
+                "6:Get students in school\n" +
+                "7:Remove school\n" +
+                "8:Exit");
     }
     public static void printTeacherSelectionScreen(){
         System.out.println("Enter the number for what'd you like to do\n" +
@@ -55,3 +49,4 @@ public class GuiMessages {
                 "5:Exit");
     }
 }
+
