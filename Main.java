@@ -12,7 +12,6 @@ public class Main {
         StudentQueries.createStudentsTableIfNotExist();
         UserSelectionDecider.addDefaultInformation();
         //starts the program and continues running it
-        GuiMessages.printNotice();
         GuiMessages.printWelcomeMessage();
         GuiMessages.printMainSelectionScreen();
         int firstChoice = UserSelectionDecider.mainScreenPrompter(UserSelectionDecider.selectionScreensIntInput(0,4));
